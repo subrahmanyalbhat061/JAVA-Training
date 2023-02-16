@@ -18,7 +18,7 @@ class BankAccount{
 	int accountNumber;
 	
 	void deposite(float amount) {
-		System.out.println("deposit"+"="+amount);
+		System.out.println("deposite"+"="+amount);
 	}
 	void withdraw() {
 		System.out.println("Withdraw");
