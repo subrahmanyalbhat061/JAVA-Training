@@ -4,10 +4,10 @@ public class BankTest {
 			BankAccount b1=new BankAccount();
 			BankAccount b2=new BankAccount();
 			BankAccount b3=new BankAccount();
-			b1.deposit(200);
+			b1.deposite(200);
 			b1.transferFunds();
 			b2.withdraw();
-			b3.teposit(200);
+			b3.deposite(200);
 			b3.transferFunds();
 			b2.withdraw();
 			
@@ -17,7 +17,7 @@ public class BankTest {
 class BankAccount{
 	int accountNumber;
 	
-	void deposit(float amount) {
+	void deposite(float amount) {
 		System.out.println("deposit"+"="+amount);
 	}
 	void withdraw() {
