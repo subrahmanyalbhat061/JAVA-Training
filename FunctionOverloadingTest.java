@@ -37,12 +37,10 @@ class Phone {
 	}
 
 	void dial(byte countryCode, long mobileNumber) {
-		System.out.println(
-				"dial(byte,long):dialing by country code +" + countryCode + " and mobile number" + mobileNumber);
+		System.out.println("dial(byte,long):dialing by country code +" + countryCode + " and mobile number" + mobileNumber);
 	}
 
 	void dial(long mobileNumber, byte countryCode) {
-		System.out
-				.println("dial(long,byte):dialing by mobile number " + mobileNumber + " country code +" + countryCode);
+		System.out.println("dial(long,byte):dialing by mobile number " + mobileNumber + " country code +" + countryCode);
 	}
 }
